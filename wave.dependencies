@@ -1,0 +1,42 @@
+[
+  {
+    "repository" : "Redmi-MT6768/based_kernel",
+    "target_path": "kernel/xiaomi/mt6768",
+    "remote"     : "github",
+    "branch"     : "eleven"
+  },
+  {
+    "repository" : "vendor_xiaomi_lava",
+    "target_path": "vendor/xiaomi/lava"
+  },
+  {
+    "repository" : "device_xiaomi_mt6768-common",
+    "target_path": "device/xiaomi/mt6768-common"
+  },
+  {
+    "repository":"packages_services_Telephony",
+     "target_path":"packages/services/Telephony",
+     "branch":"r-aosp"
+  },
+  {
+    "repository":"packages_services_Telecomm",
+    "target_path":"packages/services/Telecomm",
+    "branch":"r-aosp"
+  },
+  {
+    "repository":"frameworks_opt_telephony",
+    "target_path":"frameworks/opt/telephony",
+    "branch":"r-aosp"
+  },
+  {
+    "repository":"packages_providers_TelephonyProvider",
+    "target_path":"packages/providers/TelephonyProvider",
+    "branch":"r-aosp"
+  },
+  {
+    "repository" : "Redmi-MT6768/android_packages_apps_FMRadio",
+    "target_path": "packages/apps/FMRadio",
+    "remote"     : "github",
+    "branch"     : "lineage-18.1"
+  }
+]
