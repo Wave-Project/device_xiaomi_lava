@@ -23,6 +23,9 @@ TARGET_BOOTLOADER_BOARD_NAME := lava
 
 # Kernel
 TARGET_KERNEL_CONFIG := lancelot_defconfig
+TARGET_KERNEL_CLANG_COMPILE := true
+TARGET_KERNEL_CLANG_VERSION := 11
+KERNEL_TOOLCHAIN_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-11/bin/aarch64-linux-gnu-
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := lancelot,galahad,shiva
