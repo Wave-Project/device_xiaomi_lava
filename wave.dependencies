@@ -6,6 +6,13 @@
     "branch"     : "eleven"
   },
   {
+    "repository" : "techyminati/android_prebuilts_clang_host_linux-x86_clang-6443078",
+    "target_path": "prebuilts/clang/host/linux-x86/clang-11",
+    "remote"     : "github",
+    "branch"     : "11.0.1"
+  },
+
+  {
     "repository" : "PixelExperience/device_mediatek_sepolicy_vndr",
     "target_path": "device/mediatek/sepolicy_vndr",
     "remote"     : "github",
